@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hangman</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Hangman</h1>
+
+    <section class="hud">
+      <div class="stat"><strong>Chances Left:</strong> <span id="chancesLeft">6</span></div>
+      <div class="stat"><strong>Letters Guessed:</strong> <span id="guessedLetters">—</span></div>
+      <label class="debug">
+        <input type="checkbox" id="showWordToggle" />
+        Show testing word (for dev sanity)
+      </label>
+      <div id="testingWord" class="testing-word" aria-live="polite"></div>
+    </section>
+
+    <pre id="art" class="art" aria-hidden="true"></pre>
+
+    <section class="word">
+      <div class="label">Current Word:</div>
+      <div id="currentWord" class="current-word" aria-live="polite"></div>
+    </section>
+
+    <section class="controls">
+      <label for="guessInput" class="sr-only">Guess a letter</label>
+      <input id="guessInput" type="text" inputmode="latin" maxlength="1" autocomplete="off" placeholder="Type a letter…" />
+      <button id="guessBtn" type="button">Guess</button>
+      <button id="restartBtn" type="button" class="secondary" hidden>Restart</button>
+    </section>
+
+    <p id="message" class="message" role="status" aria-live="polite"></p>
+  </main>
+
+  <footer class="footer">
+    <small>
+      <img class="logo_image" src="/img/Ctrl Z Studio Alpha.png" alt="" width="500">
+    </small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
