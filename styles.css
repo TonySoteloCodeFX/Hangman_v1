@@ -127,3 +127,33 @@ button.secondary { background: #141a28; }
   clip: rect(0 0 0 0);
   border: 0;
 }
+
+
+@media (max-width: 575.98px) {
+
+  .logo_image {
+    width: 300px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .art {
+  background: var(--panel);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 16px;
+  padding: 16px;
+  padding-left: 150px;
+  margin: 12px 0 16px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  line-height: 1.05;
+  overflow: auto;
+}
+
+  .hud {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+}
