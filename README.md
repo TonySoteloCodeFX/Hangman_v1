@@ -18,7 +18,7 @@ Perfect as a simple web-based mini-game or a front-end coding exercise showcasin
 
 ## 🚀 Live Demo
 
-👉 [**Play Hangman Online**](#) _(<a src="https://hangman-v1.onrender.com/" target="_blank">Play Hangman</a>)_
+👉 [**Play Hangman Online**](#) _(https://hangman-v1.onrender.com)_
 
 ---
 
@@ -32,6 +32,7 @@ Perfect as a simple web-based mini-game or a front-end coding exercise showcasin
 
 ## 🗂️ Folder Structure
 
+```
 Hangman/
 ├── img/
 │ └── ProfilePicR2.png
@@ -40,7 +41,7 @@ Hangman/
 ├── index.html
 ├── script.js
 └── styles.css
-
+```
 
 ---
 
